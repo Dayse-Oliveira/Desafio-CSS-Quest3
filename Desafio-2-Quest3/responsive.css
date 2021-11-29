@@ -1,0 +1,6 @@
+@media (max-width: 425px) {
+    .flex div{
+        flex-wrap: wrap;
+    }
+    
+}

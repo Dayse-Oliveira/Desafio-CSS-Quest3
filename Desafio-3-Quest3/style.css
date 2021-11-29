@@ -1,0 +1,57 @@
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.painel{
+    display: grid;
+    grid-template-columns: auto auto;
+
+    grid-gap: 30px;
+
+}
+.video-principal{
+    grid-area: 1/1/5;
+}
+.video-principal h2{
+    font-size: 14px;
+}
+.video-principal p{
+    padding: 10px;
+    text-align: justify;
+}
+
+.video1 h2{
+    padding: 7px;
+}
+.video1 p{
+padding: 5px;
+}
+
+
+.video2 h2{
+    padding: 7px;
+}
+.video2 p{
+    padding: 5px;
+}
+
+.video3 h2{
+    padding: 7px;
+}
+.video3 p{
+    padding: 5px;
+}
+/* .video1 h2{
+    font-weight: 700;
+    font-size: 14px;
+}
+.video1 p{
+    font-weight: 300;
+    padding: 5px;
+    font-size: 11px; */
+   
+
+@media(min-width: 1200px){
+    .painel{
+        display: grid;
+    } 

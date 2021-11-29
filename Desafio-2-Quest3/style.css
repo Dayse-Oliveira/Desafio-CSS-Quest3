@@ -1,0 +1,42 @@
+
+
+.flex{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+   margin: 0 auto;
+}
+.flex div{
+    width: 50%;
+    flex: 1 1 200px;
+    flex-direction: row;
+
+
+}
+img{
+    width: 335.64px;
+    height: 432px;
+    top: 116px;
+    justify-content: space-around;
+    display: block;
+    padding: 20px;
+    
+}
+img h2{
+    position: absolute;
+    top: 457px;
+    left: 1103px;
+    display:flex
+    color: #ffffff;
+    font-size: 30px; 
+}
+img p{
+    position: absolute;
+    top: 381px;
+    left: 20px;
+    color: #ffffff;
+    font-size: 17px;
+}
