@@ -4,9 +4,11 @@ body{
 }
 .painel{
     display: grid;
-    grid-template-columns: auto auto;
-
-    grid-gap: 30px;
+    grid-template-columns: 326px 270px;
+    grid-template-rows: repeat(4, 71px);
+    grid-gap: 15px;
+    height: 368px;
+    width: 656px;
 
 }
 .video-principal{
@@ -20,38 +22,62 @@ body{
     text-align: justify;
 }
 
+.video1{
+    grid-area: 2/2;
+    display: flex;
+}
 .video1 h2{
     padding: 7px;
 }
 .video1 p{
 padding: 5px;
 }
-
+.video2{
+    grid-area:3/2 ;
+    display: flex;
+}
 
 .video2 h2{
     padding: 7px;
+   
 }
 .video2 p{
     padding: 5px;
 }
-
+.video3{
+    grid-area: 4/2;
+    display: flex;
+}
 .video3 h2{
     padding: 7px;
+    
+    
 }
 .video3 p{
     padding: 5px;
+    
 }
-/* .video1 h2{
+.descricao p{
+    display: flex;
+    margin-left: 4px;
+    margin-bottom: 5px;
+}
+.painel h2{
+    font-size: var(--tamanho-de-fonte-titulo);
     font-weight: 700;
-    font-size: 14px;
+    height: 16px;
+    margin-bottom: 7px;
+    margin-left: 4px;
 }
-.video1 p{
+.painel p{
+    font-size: var(--tamanho-de-fonte-descrição);
     font-weight: 300;
-    padding: 5px;
-    font-size: 11px; */
-   
+    height: 13px;
+    
+}
 
-@media(min-width: 1200px){
+@media(min-width: 656px){
     .painel{
         display: grid;
     } 
+}
