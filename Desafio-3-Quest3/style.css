@@ -1,3 +1,7 @@
+:root{
+    --tamanho-de-fonte-titulo: 14px;
+    --tamanho-de-fonte-descrição: 11px;
+}
 body{
     max-width: 1440px;
     margin: 0 auto;
@@ -9,7 +13,7 @@ body{
     grid-gap: 15px;
     height: 368px;
     width: 656px;
-
+    margin: 50px auto;
 }
 .video-principal{
     grid-area: 1/1/5;
@@ -18,7 +22,7 @@ body{
     font-size: 14px;
 }
 .video-principal p{
-    padding: 10px;
+   
     text-align: justify;
 }
 
@@ -26,37 +30,18 @@ body{
     grid-area: 2/2;
     display: flex;
 }
-.video1 h2{
-    padding: 7px;
-}
-.video1 p{
-padding: 5px;
-}
+
 .video2{
     grid-area:3/2 ;
     display: flex;
 }
 
-.video2 h2{
-    padding: 7px;
-   
-}
-.video2 p{
-    padding: 5px;
-}
 .video3{
     grid-area: 4/2;
     display: flex;
 }
-.video3 h2{
-    padding: 7px;
-    
-    
-}
-.video3 p{
-    padding: 5px;
-    
-}
+
+
 .descricao p{
     display: flex;
     margin-left: 4px;
