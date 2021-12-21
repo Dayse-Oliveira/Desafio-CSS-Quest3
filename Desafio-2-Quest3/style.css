@@ -1,38 +1,36 @@
-
+body{
+    max-width: 1400px;
+}
 
 .quadros{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.quadros div{
-    width: 50%;
-    flex: 1 1 200px;
-    flex-direction: row;
-}
+
 .quadro{
     position: relative;
 
 }
-img{
+.quadro img{
     width: 335.64px;
     height: 432px;
     background-size: cover;
 
 }
 
-img h2{
+.quadro h2{
     position: absolute;
-    top: 457px;
-    left: 1103px;
-    display:flex
-    color: #ffffff;
+    top: 342px;
+    left: 20px;
+    color: white;
     font-size: 30px; 
+    font-weight: 700;
 }
-img p{
+.quadro p{
     position: absolute;
     top: 381px;
     left: 20px;
-    color: #ffffff;
+    color: white;
     font-size: 17px;
 }
